@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressView">
+        <attr name="progress_width" format="dimension" /><!--画笔宽度-->
+        <attr name="location_start" format="enum"><!--加载进度起始位置-->
+            <enum name="left" value="1" />
+            <enum name="top" value="2" />
+            <enum name="right" value="3" />
+            <enum name="bottom" value="4" />
+            <enum name="left_top" value="5" />
+            <enum name="right_top" value="6" />
+            <enum name="right_bottom" value="7" />
+            <enum name="left_bottom" value="8" />
+        </attr>
+        <attr name="sweep_angle" format="enum"><!--旋转角度-->
+            <enum name="positive_90" value="90" />
+            <enum name="positive_180" value="180" />
+            <enum name="positive_270" value="270" />
+            <enum name="positive_360" value="360" />
+            <enum name="negative_90" value="-90" />
+            <enum name="negative_180" value="-180" />
+            <enum name="negative_270" value="-270" />
+            <enum name="negative_360" value="-360" />
+        </attr>
+        <attr name="progress_color_default" format="color" /><!--进度条默认颜色-->
+        <attr name="progress_color_start" format="color" /><!--进度条起始颜色-->
+        <attr name="progress_color_end" format="color" /><!--进度条结束颜色-->
+        <attr name="core_bitmap" format="reference" /><!--圆心图片-->
+    </declare-styleable>
+</resources>
